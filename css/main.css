@@ -1,0 +1,39 @@
+/*
+-- Authour: Jonathan Ward
+-- Project: Folk & Soul
+-- Component: all .html pages
+-- Comments:
+*/
+
+/*REMOVE DEFAULT STYLING*/
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+iframe {
+  border: none
+}
+
+button:focus {
+  outline: none;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*MAIN STYLES*/
+.main-body {
+  margin: 32px 60px;
+  height: 100vh;
+  width: auto
+}
+
+.wrapper-div {
+  margin: 0 12rem
+}

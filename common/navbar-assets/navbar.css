@@ -1,0 +1,57 @@
+/*
+-- Authour: Jonathan Ward
+-- Project: Folk & Soul
+-- Component: navbar.html
+-- Comments: dynamically rendered in via an Iframe on all pages
+*/
+
+.iframe-body {
+  height: 175px;
+  width: inherit;
+  margin: 0
+}
+
+.nav-container {
+  width: 99.7%;
+  height: 178px;
+}
+
+.flex-ul {
+  display: flex;
+  width: inherit;
+  margin: 0;
+  padding: 0
+}
+
+.nav-li {
+  flex-grow: 1;
+  flex-basis: 0
+}
+
+.nav-book-now-btn {
+  border: solid 1px #000;
+  width: 155px;
+  height: 35px;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  font-weight: 100
+}
+
+.nav-logo {
+  display: block;
+  margin: 0 auto;
+  height: 165px;
+}
+
+.burger-bnt-container {
+  position: absolute;
+  right: 0
+}
+
+.burger-btn {
+  border: 0.5px solid #000;
+  width: 25px;
+  margin: 8px;
+  display: block
+}
